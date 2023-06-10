@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(180deg , #490d7a, #1e4e85) ;
+    min-height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.title-val{
+    color: #600527;
+    text-transform: uppercase;
+}
+
+.favourite-heroes{
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s;
+}
+
+.favourite-heroes:hover{
+    color: #e206f6;
+}
+
+
+#searchHero{
+    display: block;
+    width: 50%;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: rgb(8, 93, 92);
+    padding-left: 2%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+input{
+    outline: none;
+}
+
+.image-size{
+    width: 70px;
+    height: 70px;
+    margin-left: 2rem;
+    border-radius: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    overflow: scroll;
+    height: 60vh;
+    width: 50%;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+ul li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+ul li a{
+    color: #fff;
+    font-size: 25px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+#delFav{
+    color: red;
+    font-size: 25px;
+}
+#delFav:hover{
+    cursor:pointer;
+}
+#addFav:hover{
+    cursor:pointer;
+}
+#addFav{
+    font-size: 25px;
+    color: lightgray;
+}
+.search-item a{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
